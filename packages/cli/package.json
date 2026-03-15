@@ -1,0 +1,22 @@
+{
+  "name": "@ump/cli",
+  "version": "0.1.0",
+  "description": "CLI for Ump workflow testing",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ump": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@ump/engine": "*"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
